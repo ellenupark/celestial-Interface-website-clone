@@ -1,0 +1,16 @@
+h2 {
+    color: pink;
+}
+
+body {
+    margin: 0;
+}
+
+div {
+    border: 1px solid black;
+    height: 100vh;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
