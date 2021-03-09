@@ -6,3 +6,18 @@ body {
   height: 742px;
   width: auto;
 }
+
+.nav-list {
+  display: inline-flex;
+  list-style-type: none;
+}
+
+.nav-list li {
+  padding-left: 5%;
+}
+
+nav {
+  position: fixed;
+  display: inline-flex;
+  justify-content: space-between;
+}
