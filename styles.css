@@ -89,7 +89,7 @@ body {
 #experience .summary-stats button {
     width: 200px;
     flex-basis: 14%;
-    background: #5F75DE;
+    background: #8878FA;
     border: none;
     color: #FFFFFF;
     font-weight: bold;
@@ -244,8 +244,20 @@ body {
 
 #blog img {
     width: 100%;
+    transition: 0.2s all ease-in-out; 
     height: 300px;
     object-fit: cover;
+    overflow: hidden;
+}
+
+#blog .blog-image-container {
+    overflow: hidden; 
+}
+
+#blog img:hover {
+    width: 100%;
+    height: 300px;
+    transform: scale(1.02);
 }
 
 article {
