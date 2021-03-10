@@ -264,7 +264,7 @@ article {
     position: relative;
     margin-top: -40px;
     background: #FFFFFF;
-    width: 28%;
+    width: 103px;
 
 }
 
@@ -295,8 +295,9 @@ article {
 }
 
 #blog article > p {
-    color: #151515;
+    color: #797979;
     line-height: 1.71429;
     font-weight: 500;
     letter-spacing: .05em;
+    font-size: 14px;
 }
