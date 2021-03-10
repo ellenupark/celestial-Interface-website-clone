@@ -34,6 +34,7 @@ body {
     width: 250px;
     height: 120px;
     object-fit: cover;
+    border: 1px solid #d7d7d7;
 }
 
 #experience .examples {
@@ -182,8 +183,16 @@ body {
     margin: 10px 0;
 }
 
-#demo #demo-info p {
+#demo #demo-description {
     max-width: 60%;
+    line-height: 1.71429;
+    font-weight: 500;
+    letter-spacing: .05em;
+    margin: 25px 0;
+}
+
+#demo-description p {
+    margin: 10px 0;
 }
 
 #demo #demo-info span {
@@ -283,4 +292,11 @@ article {
     transform: translate3d(0, -100%, 0) skewX(30deg);
     transform-origin: 50% 100%;
     will-change: transform;
+}
+
+#blog article > p {
+    color: #151515;
+    line-height: 1.71429;
+    font-weight: 500;
+    letter-spacing: .05em;
 }
