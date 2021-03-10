@@ -167,10 +167,30 @@ body {
     font-size: 32px;
     padding: 0;
     margin: 0;
+    position: relative;
+    color: #a5a5a5
 }
 
+#demo #demo-selector p::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    height: 2px;
+    width: 35;
+    transition: .22s ease;
+}
+
+#demo #demo-selector span p::after {
+    background: #5F75DE;
+
+}
+
+#demo #demo-selector span p {
+    color: #5F75DE;
+}
 #demo #demo-selector {
-    border-bottom: 2px solid grey;
+    border-bottom: 2px solid #d7d7d7;
     display: flex;
     justify-content: space-between;
     width: 75%;
