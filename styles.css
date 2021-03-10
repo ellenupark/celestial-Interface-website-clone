@@ -1,3 +1,156 @@
 body {
     margin: 0;
 }
+
+/* EXPERIENCE START */
+
+#experience {
+    height: 100vh;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 10%;
+}
+
+#experience .row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#experience .column {
+    display: flex;
+    flex-direction: column;
+}
+
+#experience .description {
+    height: 50vh;
+    margin-bottom: 40px;
+}
+
+#experience img {
+    width: 250px;
+    height: 120px;
+    object-fit: cover;
+}
+
+#experience .examples {
+    justify-content: space-between;
+}
+
+#experience #years {
+    justify-content: center;
+    align-items: center;    
+    flex-basis: 55%;
+}
+
+#experience #years h1 {
+    margin: 0;
+    font-size: 26em;
+    font-weight: bold;
+    padding-right: 60px;
+}
+
+
+#experience #stats > .row {
+    height: 100%;
+    width: 100%;
+}
+
+#experience .summary-stats {
+    flex-basis: 40%;
+}
+
+#experience #stats .column {
+    height: 100%;
+    justify-content: space-between;
+}
+
+#experience .summary-stats p {
+    line-height: 1.6;
+    color: grey;
+    padding-right: 70px;
+}
+
+#experience .summary-stats h3 {
+    border-left: 4px solid #d7d7d7;
+    padding: 5px 0 5px 20px;
+    font-size: 32px;
+    margin: 16px 0;
+    font-weight: 500;
+    line-height: 1.3125;
+    letter-spacing: .024em;
+    word-spacing: .05em;
+}
+
+#experience .summary-stats button {
+    width: 200px;
+    flex-basis: 14%;
+    background: #5F75DE;
+    border: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+#experience .company-stats {
+    flex-basis: 60%;
+}
+
+#experience .company-stats .row {
+    height: 80%;
+}
+
+#experience .company-stats .column {
+    width: 80%;
+    align-items: center;
+    justify-content: center !important;
+}
+
+#experience .border-top {
+    border-top: 2px solid #d7d7d7;
+}
+
+#experience .border-right {
+    border-right: 2px solid #d7d7d7;
+}
+
+#experience .company-stats h3 {
+    font-size: 6em;
+    margin: 0;
+    padding: 0;
+}
+
+#experience .company-stats p {
+    padding: 0;
+    margin: 0;
+}
+
+/* EXPERIENCE END */
+
+
+#demo {
+    height: 100vh;
+    font-family: 'Nunito', sans-serif;
+    margin: 0 10%;
+    border: 1px solid red;
+
+}
+
+#demo .row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+#demo .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+
+#demo div {
+    border: 1px solid red;
+}
