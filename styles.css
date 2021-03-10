@@ -135,14 +135,15 @@ body {
     font-family: 'Nunito', sans-serif;
     margin: 0 10%;
     border: 1px solid red;
-
 }
 
 #demo .row {
     display: flex;
     flex-direction: row;
-    width: 100%;
+}
+#demo > .row {
     height: 100%;
+    align-items: center;
 }
 
 #demo .column {
@@ -153,4 +154,14 @@ body {
 
 #demo div {
     border: 1px solid red;
+}
+
+#demo #phone-images {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#demo img {
+    max-width: 300px;
 }
