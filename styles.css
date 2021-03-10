@@ -18,3 +18,27 @@ body {
     margin-right: auto;
     padding-top: 10px;
 }
+
+/* .project-list-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 0;
+} */
+
+.p-list{
+    display:inline;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 30px 30px;
+}
+
+.project-list{
+    overflow:hidden;
+    margin-left: 45rem;
+    margin-right: 20rem;
+}
