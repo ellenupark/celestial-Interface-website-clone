@@ -134,7 +134,6 @@ body {
     height: 100vh;
     font-family: 'Nunito', sans-serif;
     margin: 0 10%;
-    border: 1px solid red;
 }
 
 #demo .row {
@@ -149,19 +148,63 @@ body {
 #demo .column {
     display: flex;
     flex-direction: column;
-    flex-basis: 50%;
-}
-
-#demo div {
-    border: 1px solid red;
+    height: 100%;
+    justify-content: center;
 }
 
 #demo #phone-images {
     display: flex;
     flex-direction: row;
-
+    justify-content: space-around;
 }
 
 #demo img {
     max-width: 300px;
+}
+
+#demo #demo-selector p {
+    font-size: 32px;
+    padding: 0;
+    margin: 0;
+}
+
+#demo #demo-selector {
+    border-bottom: 2px solid grey;
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+}
+
+#demo h3 {
+    letter-spacing: .024em;
+    word-spacing: .05em;
+    font-size: 42px;
+    margin: 10px 0;
+}
+
+#demo #demo-info p {
+    max-width: 60%;
+}
+
+#demo #demo-info span {
+    color: #5F75DE;
+}
+
+#demo #demo-info #get-in-touch-demo-button {
+    width: 200px;
+    background: #5F75DE;
+    border: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    height: 50px;   
+}
+
+#demo #demo-info #presentation-demo-button {
+    width: 300px;
+    background: none;
+    border: 2px solid darkgrey;
+    color: #000000;
+    font-weight: bold;
+    height: 50px;   
+    margin-top: 15px;
 }
