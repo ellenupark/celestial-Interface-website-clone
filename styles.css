@@ -2,7 +2,7 @@ body {
     margin: 0;
 }
 
-/* EXPERIENCE START */
+/* Experience */
 
 #experience {
     height: 100vh;
@@ -52,12 +52,12 @@ body {
     font-size: 26em;
     font-weight: bold;
     padding-right: 60px;
+    color: #8878FA;
 }
 
 
 #experience #stats > .row {
     height: 100%;
-    width: 100%;
 }
 
 #experience .summary-stats {
@@ -70,7 +70,7 @@ body {
 }
 
 #experience .summary-stats p {
-    line-height: 1.6;
+    line-height: 1.5;
     color: grey;
     padding-right: 70px;
 }
@@ -81,8 +81,8 @@ body {
     font-size: 32px;
     margin: 16px 0;
     font-weight: 500;
-    line-height: 1.3125;
-    letter-spacing: .024em;
+    line-height: 1.25;
+    letter-spacing: .025em;
     word-spacing: .05em;
 }
 
@@ -128,7 +128,8 @@ body {
     margin: 0;
 }
 
-/* EXPERIENCE END */
+
+/* Demo */
 
 
 #demo {
@@ -197,7 +198,7 @@ body {
 }
 
 #demo h3 {
-    letter-spacing: .024em;
+    letter-spacing: .025em;
     word-spacing: .05em;
     font-size: 42px;
     margin: 10px 0;
@@ -205,7 +206,7 @@ body {
 
 #demo #demo-description {
     max-width: 60%;
-    line-height: 1.71429;
+    line-height: 1.5;
     font-weight: 500;
     letter-spacing: .05em;
     margin: 25px 0;
@@ -240,6 +241,8 @@ body {
 
 
 
+
+/* Blog */
 
 #blog {
     height: 100vh;
@@ -321,14 +324,14 @@ article {
     width: 103px;
     height: 15px;
     background: #FFFFFF;
-    transform: translate3d(0, -100%, 0) skewX(30deg);
+    transform: translate3d(0, -100%, 0) skewX(35deg);
     transform-origin: 50% 100%;
     will-change: transform;
 }
 
 #blog article > p {
     color: #797979;
-    line-height: 1.71429;
+    line-height: 1.5;
     font-weight: 500;
     letter-spacing: .05em;
     font-size: 14px;
