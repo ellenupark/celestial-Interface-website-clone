@@ -313,3 +313,12 @@ article {
     letter-spacing: .05em;
     font-size: 14px;
 }
+
+#blog article h3 {
+    transition: 0.3s all ease-in-out; 
+    width: fit-content;
+}
+
+#blog article h3:hover {
+    color: #5F75DE;
+}
