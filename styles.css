@@ -35,11 +35,11 @@ body {
     max-height: 200px;
     width: auto;
     height: auto;
-    -webkit-transition: .25s;
-       -moz-transition: .25s;
-        -ms-transition: .25s;
-         -o-transition: .25s;
-            transition: .25s;
+    -webkit-transition: .4s;
+       -moz-transition: .4s;
+        -ms-transition: .4s;
+         -o-transition: .4s;
+            transition: .4s;
 }
 
 #experience img:hover {
@@ -62,15 +62,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    -webkit-transition: .25s;
-       -moz-transition: .25s;
-        -ms-transition: .25s;
-         -o-transition: .25s;
-            transition: .25s;
-
+    -webkit-transition: .4s;
+       -moz-transition: .4s;
+        -ms-transition: .4s;
+         -o-transition: .4s;
+            transition: .4s;
 }
-
-
 
 #experience .examples {
     justify-content: space-between;
@@ -299,22 +296,29 @@ body {
     margin-top: 12%;
 }
 
-#blog img {
-    width: 100%;
-    transition: 0.2s all ease-in-out; 
+.blog-image-border {
+    overflow: hidden;
     height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#blog img {
+    width: 103%;
+    height: 103%;
+    -webkit-transition: .3s;
+       -moz-transition: .3s;
+        -ms-transition: .3s;
+         -o-transition: .3s;
+            transition: .3s;
     object-fit: cover;
     overflow: hidden;
 }
 
-#blog .blog-image-container {
-    overflow: hidden; 
-}
-
 #blog img:hover {
     width: 100%;
-    height: 300px;
-    transform: scale(1.02);
+    height: 100%;
 }
 
 article {
