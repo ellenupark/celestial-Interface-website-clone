@@ -31,11 +31,46 @@ body {
 }
 
 #experience img {
-    width: 250px;
-    height: 120px;
-    object-fit: cover;
-    border: 1px solid #d7d7d7;
+    max-width: 330px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    -webkit-transition: .25s;
+       -moz-transition: .25s;
+        -ms-transition: .25s;
+         -o-transition: .25s;
+            transition: .25s;
 }
+
+#experience img:hover {
+    max-width: 315px;
+    max-height: 185px;
+}
+
+.border:hover {
+    outline: 0.5px solid #000000;
+    outline-offset: -10px;
+    border: 0.5px solid #000000;
+}
+
+.border {
+    border: 1px solid #d7d7d7;
+    width: 250px;
+    overflow: hidden;
+    height: 120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transition: .25s;
+       -moz-transition: .25s;
+        -ms-transition: .25s;
+         -o-transition: .25s;
+            transition: .25s;
+
+}
+
+
 
 #experience .examples {
     justify-content: space-between;
@@ -127,7 +162,6 @@ body {
     padding: 0;
     margin: 0;
 }
-
 
 /* Demo */
 
