@@ -1,27 +1,68 @@
 <html lang="en">
-<head>
-  <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
 
-  <title>Homepage Clone</title>
-  <meta name="description" content="Celestial Interface">
-  <meta name="author" content="SitePoint">
+    <title>Celestial Interface Homepage</title>
+    <meta name="description" content="Celestial Interface" />
+    <meta name="author" content="SitePoint" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
 
-  <link rel="stylesheet" href="./styles.css">
-
-</head>
-
-<body>
+  <body>
     <header>
-        <nav></nav>
+      <nav>
+        <p>Celestial Interface</p>
+        <ul class="nav-list">
+          <li><a>Home</a></li>
+          <li><a>AboutUs</a></li>
+          <li><a>Gallery</a></li>
+          <li><a>Pricing</a></li>
+          <li><a>Blog</a></li>
+          <li><a>Contact Us</a></li>
+          <li><a>Pages</a></li>
+        </ul>
+      </nav>
     </header>
-    <article id="carousel"></article>
-    <article id="services"></article>
-    <article id="projects"></article>
-    <article id="experience"></article>
-    <article id="team"></article>
-    <article id="demo"></article>
-    <article id="testimony"></article>
-    <article id="blog"></article>
-    <footer></footer>
-</body>
+    <main>
+      <section id="carousel">
+        <img
+          class="carousel-pics"
+          src="../public/women-working.jpg"
+          alt="women working at table"
+        />
+        <div class="img-overlay-content">
+          <h1>Recent Bootcamp Graduates</h1>
+          <p>
+            Brought together by chance and circumstance, Ellen, Jyoti, and Sarah
+            have recently graduated from bootcamp and are eager to work on
+            software solutions with creative and usable features.
+          </p>
+          <button>Get In Touch</button>
+        </div>
+      </section>
+      <section id="services">
+        <div class="boxes">
+          <div class="side-box">
+            <img id="tablet-pic" src="../public/tablet.jpg" alt="tablet" />
+          </div>
+          <div class="service-boxes">
+            <div class="box">
+              <p>See All Services</p>
+              <button>All Services</button>
+            </div>
+            <div class="box">Corporate Solutions</div>
+            <div class="box">Call Center Solutions</div>
+            <div class="box">Cloud Development</div>
+          </div>
+        </div>
+      </section>
+      <article id="projects"></article>
+      <article id="experience"></article>
+      <article id="team"></article>
+      <article id="demo"></article>
+      <article id="testimony"></article>
+      <article id="blog"></article>
+      <footer></footer>
+    </main>
+  </body>
 </html>

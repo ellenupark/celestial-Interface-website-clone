@@ -1,3 +1,93 @@
+html,
 body {
-    margin: 0;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  position: fixed;
+  z-index: 10;
+  font-family: 'Nunito', sans-serif;
+  width: 100%;
+  background-color: aqua;
+  padding: 15px 20px;
+  justify-content: space-between;
+  align-items: center;
+  border: solid black 3px;
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-list li {
+  padding-left: 10%;
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: #5fc0de;
+  text-decoration-thickness: 30%;
+}
+
+/* main {
+  padding-top: 50px;
+} */
+
+#carousel {
+  padding-top: 97px;
+}
+
+.carousel-pics {
+  max-width: 100%;
+  border: solid red 3px;
+  /* height: 742px; */
+  /* position: absolute; */
+}
+
+button {
+  background-color: #5fc0de;
+  padding: 15px 32px;
+  text-align: center;
+  border: none;
+  font-size: 16px;
+  color: white;
+}
+
+.img-overlay-content {
+  position: absolute;
+  top: 30%;
+  font-family: 'Nunito', sans-serif;
+  color: white;
+  text-align: center;
+  /* margin: auto; */
+}
+
+.boxes {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  border: 1px black solid;
+  background-color: blueviolet;
+}
+
+.side-box {
+  height: 400px;
+  background-color: blue;
+}
+
+.service-boxes {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 10% 1%;
+}
+
+#tablet-pic {
+  max-width: 400px;
 }
