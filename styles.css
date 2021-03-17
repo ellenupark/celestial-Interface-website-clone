@@ -509,6 +509,7 @@ article {
     align-items: center;
 }
 
+
 .project-text{
     font-family: 'Nunito', sans-serif;
     text-align: center;
@@ -550,9 +551,11 @@ article {
     color: #5F75DE;
 }
 
+
+
 /* team */
 #team {
-    height: 100vh;
+    height: 60vh;
     font-family: 'Nunito', sans-serif;
     margin: 0 10%;
 
@@ -561,7 +564,7 @@ article {
 #team .row {
     display: flex;
     flex-direction: column;
-    height: 100%;
+    /* height: 100%; */
 
 }
 
@@ -599,5 +602,6 @@ article {
     justify-content: space-between;
     width: 100%;
 }
+
 
 
