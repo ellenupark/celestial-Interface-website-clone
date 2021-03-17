@@ -687,5 +687,11 @@ article {
     color: #fff;
 }
 
-
+.testimony-text{
+    position: relative;
+    text-align: center;
+    font-size: 38px;
+    text-transform: capitalize;
+    height: 0vh;
+}
 
