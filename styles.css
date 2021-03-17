@@ -68,6 +68,7 @@ button {
 .boxes {
   display: grid;
   grid-template-columns: 50% 50%;
+  padding: 3%;
 }
 
 .box {
@@ -75,11 +76,13 @@ button {
   width: 200px;
   border: 1px black solid;
   background-color: blueviolet;
+  box-shadow: 10;
 }
 
 .side-box {
   height: 400px;
   background-color: blue;
+  text-align: center;
 }
 
 .service-boxes {
