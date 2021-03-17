@@ -497,7 +497,8 @@ article {
     font-size: 42px;
     font-weight: bold;
     margin-top: 12%;
-    text-transform: uppercase;
+    text-transform: capitalize;
+    color: #151515;
 }
 
 .project-image {
@@ -508,7 +509,16 @@ article {
     align-items: center;
 }
 
-
+.project-text{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+    max-width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
 
 article {
     width: 32%;
@@ -538,6 +548,56 @@ article {
 
 #projects article h3:hover {
     color: #5F75DE;
+}
+
+/* team */
+#team {
+    height: 100vh;
+    font-family: 'Nunito', sans-serif;
+    margin: 0 10%;
+
+}
+
+#team .row {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+#team h2 {
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    margin-top: 12%;
+    text-transform: capitalize;
+}
+
+.team-image {
+    overflow: hidden;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#team img {
+    width: 100%;
+    height: 107%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+article {
+    width: 32%;
+}
+
+#team #team-details {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
 }
 
 
