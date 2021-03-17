@@ -19,11 +19,13 @@ nav {
 .nav-list {
   display: flex;
   list-style-type: none;
+  justify-content: flex-end;
+  padding-right: 15px;
 }
 
 .nav-list li {
-  padding-left: 10%;
-  text-align: center;
+    padding: 0 20px;
+    text-align: center;
 }
 
 a:hover {
